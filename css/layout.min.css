@@ -36,7 +36,7 @@ body, html, html a {
 p {
     font-size:15px;
     font-weight:400;
-    color:#a6a7aa;
+    color:#737373;
     margin-bottom:15px
 }
 em, li, li a {
@@ -206,12 +206,13 @@ h3, h4 {
     transition-duration:2s
 }
 .social-icons {
-    width:40px;
-    height:40px;
-    font-size:16px;
+    width:45px;
+    height:45px;
+    font-size:20px;
     color:#fff;
     border-radius:50%;
     padding:11px;
+    text-shadow: 1px 1px #424242;
     transition-duration:.3s;
     transition-property:all;
     transition-timing-function:cubic-bezier(.7, 1, .7, 1)
@@ -247,7 +248,8 @@ h3, h4 {
 }
 .promo-block .promo-block-text {
     font-size:25px;
-    color:#fff
+    color:#fff;
+    text-shadow: 1px 1px #424242;
 }
 .promo-block .promo-block-divider {
     border-bottom:1px solid rgba(255, 255, 255, .4);
@@ -462,17 +464,16 @@ h3, h4 {
     background:rgba(81, 87, 105, 0)
 }
 .header .logo {
-    width:100px;
     height:100px;
     float:left;
     max-height:95px;
     line-height:65px
 }
 .header .logo-wrap {
-    padding:15px 0
+    padding:15px 0;
 }
 .header .logo-img {
-    width:100px;
+    width:150px;
     height:auto;
     max-width:100%;
     max-height:100%;
@@ -497,7 +498,7 @@ h3, h4 {
     opacity:1
 }
 .header .nav-item-child {
-    font-size:13px;
+    font-size:14px;
     font-weight:600;
     color:#fff;
     line-height:55px;
@@ -594,7 +595,7 @@ h3, h4 {
     }
     .page-on-scroll .header .navbar {
         background:#fff;
-        border-bottom-color:#f0f0f0;
+        box-shadow: 0px 1px rgba(45, 52, 54,0.3);
         transition-duration:.3s;
         transition-property:all;
         transition-timing-function:cubic-bezier(.7, 1, .7, 1)
@@ -730,7 +731,7 @@ h3, h4 {
     color:#fafafa!important
 }
 .bg-color-base {
-    background:#fb6900!important
+    background:#f78636!important
 }
 .bg-color-white {
     background:#fff!important
